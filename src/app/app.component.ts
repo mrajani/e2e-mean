@@ -7,10 +7,4 @@ import { Post } from './posts/posts.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'max-course';
-  storedPosts: Post[] = [];
-
-  onPostAdded(post) {
-    this.storedPosts.push(post);
-  }
 }
